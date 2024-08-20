@@ -1,3 +1,9 @@
-.justify-content-end.align-items-end {
-    align-items: flex-end;
+// Override PrimeNG styles
+:host ::ng-deep {
+    .justify-content-end .p-tabmenu-nav {
+        justify-content: flex-end;
+        li:first-of-type {
+            margin-right: auto;
+        }
+    }
 }
